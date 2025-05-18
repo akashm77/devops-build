@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  projectsora:
+    image: projectsora:latest
+    container_name: projectsora_container
+    ports:
+      - "8080:8080"  # Map container port to host
+    restart: unless-stopped
