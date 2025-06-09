@@ -1,3 +1,3 @@
-docker login -u akashm77 -p Anjali765$3@
+docker login -u akashm77 -p dckr_pat_adtlYmDrHcq2ShM47IYlH5luI00
 docker tag projectsora akashm77/dev
 docker push akashm77/dev
